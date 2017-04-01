@@ -52,14 +52,26 @@ namespace Aplicacion1VS
             btn8.Click += Btn8_Click;
             btn9.Click += Btn9_Click;
 
+            #endregion
+
+            #region botonesenvacio
+            btn9.SetText(Resource.String.Vacio);
+            btn8.SetText(Resource.String.Vacio);
+            btn7.SetText(Resource.String.Vacio);
+            btn6.SetText(Resource.String.Vacio);
+            btn5.SetText(Resource.String.Vacio);
+            btn4.SetText(Resource.String.Vacio);
+            btn3.SetText(Resource.String.Vacio);
+            btn2.SetText(Resource.String.Vacio);
+            btn1.SetText(Resource.String.Vacio);
+
 #endregion
-
-
 
         }
 
         private void Btn9_Click(object sender, System.EventArgs e)
         {
+            //btn9.SetText(Resource.String.Vacio);
             if (contador % 2 == 0)
             {
                 btn9.SetBackgroundResource(Resource.Drawable.circle);
@@ -77,6 +89,7 @@ namespace Aplicacion1VS
 
         private void Btn8_Click(object sender, System.EventArgs e)
         {
+           // btn8.SetText(Resource.String.Vacio);
             if (contador % 2 == 0)
             {
                 btn8.SetBackgroundResource(Resource.Drawable.circle);
@@ -94,6 +107,7 @@ namespace Aplicacion1VS
 
         private void Btn7_Click(object sender, System.EventArgs e)
         {
+            //btn9.SetText(Resource.String.Vacio);
             if (contador % 2 == 0)
             {
                 btn7.SetBackgroundResource(Resource.Drawable.circle);

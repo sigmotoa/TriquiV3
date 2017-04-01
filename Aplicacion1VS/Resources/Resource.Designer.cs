@@ -143,6 +143,9 @@ namespace Aplicacion1VS
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+			// aapt resource value: 0x7f040002
+			public const int Vacio = 2130968578;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
